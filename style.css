@@ -1,0 +1,54 @@
+
+.formtitle{
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(33, 155, 50);
+    text-align: center;
+}
+.signup{
+    background-color: #fdaca4;
+    box-shadow: 10px 10px 5px #aaaaaa;
+    padding: 20px;
+    margin-left: 430px;
+    border-radius: 20px;
+    width: 350px;
+    height: 100%;
+
+}
+.box{
+    width: 300px;
+    height: 30px;
+    border: #fdaca4  ;
+    margin:5px;
+}
+.heading{
+ font-size: 16px;
+ font-weight: bold;
+}
+.btnn{
+    background-color: rgb(255, 255, 255);
+    padding: 10px;
+    width: 250px;
+    border-color: rgb(33, 155, 50);
+    border-radius: 10px;
+    box-shadow: green;
+    cursor: pointer;
+      margin-left:30px;   
+}
+.btnn:hover {
+    background-color: rgb(33, 155, 50);
+    color: white;
+}
+@media only screen and (max-width: 800px) and (min-width: 400px) {
+    .signup{
+        margin-left:200px ; 
+    }
+  
+}
+
+@media screen and (max-width: 400px) {
+    .signup{
+        margin-left: 0%;  
+    }
+
+}
